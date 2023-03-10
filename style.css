@@ -111,3 +111,38 @@ h3 {
 p {
   margin-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    padding: 0 5px;
+  }
+
+  h2 {
+    font-size: 29px;
+  }
+
+  h3 {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .navbar-brand {
+    font-size: 18px;
+  }
+  .email-link {
+    font-size: 25px;
+  }
+  #contact {
+    margin-bottom: 50px;
+  }
+  .app-launch-link {
+    display: block;
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+}
